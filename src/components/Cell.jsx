@@ -27,6 +27,7 @@ export function Cell({
         placeItems: 'center',
         fontSize: '0.875rem',
         backgroundColor: revealed ? 'lightgray' : 'gray',
+        userSelect: 'none',
       }}
       onClick={_handleClick}
       onContextMenu={_handleClick}
